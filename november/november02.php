@@ -1,5 +1,5 @@
 <?php
-
+// AtCoder Beginner Contest 113 Discount Fare
 $stdin = explode(' ', fgets(STDIN));
 
 // バスの運賃を求める
