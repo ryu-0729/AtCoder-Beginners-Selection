@@ -1,1 +1,4 @@
-# AtCoder-Beginners-Selection
+## アルゴリズムとデータ構造の学習リポジトリ
+- Atcoder-Beginners-Selectionの練習問題
+- コンテストに参加し、回答したソース
+- 書籍、ネット等での学習記録
