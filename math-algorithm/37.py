@@ -4,8 +4,8 @@ import math
 a, b = map(int, input().split())
 
 def isShouMondai(a, b, t):
-  cl = math.floor(b / t)
-  cr = math.ceil(a / t)
+  cl = math.floor(b / t) # 床関数
+  cr = math.ceil(a / t) # 天井関数
   if cl - cr >= 1: return True
 
   return False
