@@ -4,6 +4,6 @@ answer = 0.0
 
 for i in range(n):
   p, q = map(int, input().split())
-  answer += 1.0 * q / p
+  answer += q / p
 
 print(answer)
