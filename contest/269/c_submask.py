@@ -1,7 +1,8 @@
 # C - Submask
 # https://atcoder.jp/contests/abc269/tasks/abc269_c
 
-N = int(input())
+# NOTE: 他の人のソースを参考に実装
+""" N = int(input())
 A = []
 cur = 0
 x = N
@@ -20,10 +21,10 @@ for i in range(1 << M):
     if (i >> j) & 1:
       res += 1 << A[j]
 
-  print(res)
+  print(res) """
 
 # NOTE: 解説動画見ての実装
-""" N = int(input())
+N = int(input())
 s = N
 ans = []
 while True:
@@ -33,4 +34,4 @@ while True:
 
 ans.sort()
 for i in range(len(ans)):
-  print(ans[i]) """
+  print(ans[i])
