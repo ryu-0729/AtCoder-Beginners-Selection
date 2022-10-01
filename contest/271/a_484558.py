@@ -1,3 +1,5 @@
+# A - 484558
+# https://atcoder.jp/contests/abc271/tasks/abc271_a
 n = int(input())
 x = format(n, 'x').upper()
 if len(x) == 1:
